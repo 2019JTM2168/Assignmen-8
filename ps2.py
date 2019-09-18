@@ -13,11 +13,11 @@ def inp():
 
 
 def disp():
-    print(a     b   c)
+    print(a,b,c)
     print()
-    print(d     e   f)
+    print(d,e,f)
     print()
-    print(g     h   i)
+    print(g,h,i)
 
 
 # def assgn():
@@ -107,6 +107,7 @@ if x == 9:
         print("Invalid input,only odd numbers for player 1")
         y = int(input("Re-enter number : "))
         i = y
+disp()
 if (((a + b + c) == 15) or ((d + e + f) == 15) or ((g + h + i) == 15) or ((a + d + g) == 15) or ((b + e + h) == 15) or (
         (c + f + i) == 15) or ((a + e + i) == 15) or ((g + e + c) == 15)):
     print("Player 1 won")
@@ -168,6 +169,7 @@ if x == 9:
         print("Invalid input,only even numbers for player 1")
         y = int(input("Re-enter number : "))
         i = y
+disp()
 if (((a + b + c) == 15) or ((d + e + f) == 15) or ((g + h + i) == 15) or ((a + d + g) == 15) or ((b + e + h) == 15) or (
         (c + f + i) == 15) or ((a + e + i) == 15) or ((g + e + c) == 15)):
     print("Player 2 won")
@@ -229,6 +231,7 @@ if x == 9:
         print("Invalid input,only odd numbers for player 1")
         y = int(input("Re-enter number : "))
         i = y
+disp()
 if (((a + b + c) == 15) or ((d + e + f) == 15) or ((g + h + i) == 15) or ((a + d + g) == 15) or ((b + e + h) == 15) or (
         (c + f + i) == 15) or ((a + e + i) == 15) or ((g + e + c) == 15)):
     print("Player 1 won")
@@ -290,6 +293,7 @@ if x == 9:
         print("Invalid input,only even numbers for player 1")
         y = int(input("Re-enter number : "))
         i = y
+disp()
 if (((a + b + c) == 15) or ((d + e + f) == 15) or ((g + h + i) == 15) or ((a + d + g) == 15) or ((b + e + h) == 15) or (
         (c + f + i) == 15) or ((a + e + i) == 15) or ((g + e + c) == 15)):
     print("Player 2 won")
@@ -351,6 +355,7 @@ if x == 9:
         print("Invalid input,only odd numbers for player 1")
         y = int(input("Re-enter number : "))
         i = y
+disp()
 if (((a + b + c) == 15) or ((d + e + f) == 15) or ((g + h + i) == 15) or ((a + d + g) == 15) or ((b + e + h) == 15) or (
         (c + f + i) == 15) or ((a + e + i) == 15) or ((g + e + c) == 15)):
     print("Player 1 won")
@@ -412,6 +417,7 @@ if x == 9:
         print("Invalid input,only even numbers for player 1")
         y = int(input("Re-enter number : "))
         i = y
+disp()
 if (((a + b + c) == 15) or ((d + e + f) == 15) or ((g + h + i) == 15) or ((a + d + g) == 15) or ((b + e + h) == 15) or (
         (c + f + i) == 15) or ((a + e + i) == 15) or ((g + e + c) == 15)):
     print("Player 2 won")
@@ -473,6 +479,7 @@ if x == 9:
         print("Invalid input,only odd numbers for player 1")
         y = int(input("Re-enter number : "))
         i = y
+disp()
 if (((a + b + c) == 15) or ((d + e + f) == 15) or ((g + h + i) == 15) or ((a + d + g) == 15) or ((b + e + h) == 15) or (
         (c + f + i) == 15) or ((a + e + i) == 15) or ((g + e + c) == 15)):
     print("Player 1 won")
@@ -534,6 +541,7 @@ if x == 9:
         print("Invalid input,only even numbers for player 1")
         y = int(input("Re-enter number : "))
         i = y
+disp()
 if (((a + b + c) == 15) or ((d + e + f) == 15) or ((g + h + i) == 15) or ((a + d + g) == 15) or ((b + e + h) == 15) or (
         (c + f + i) == 15) or ((a + e + i) == 15) or ((g + e + c) == 15)):
     print("Player 2 won")
@@ -595,6 +603,7 @@ if x == 9:
         print("Invalid input,only odd numbers for player 1")
         y = int(input("Re-enter number : "))
         i = y
+disp()
 if (((a + b + c) == 15) or ((d + e + f) == 15) or ((g + h + i) == 15) or ((a + d + g) == 15) or ((b + e + h) == 15) or (
         (c + f + i) == 15) or ((a + e + i) == 15) or ((g + e + c) == 15)):
     print("Player 1 won")
@@ -602,4 +611,8 @@ if (((a + b + c) == 15) or ((d + e + f) == 15) or ((g + h + i) == 15) or ((a + d
 
 if (((a + b + c) != 15) or ((d + e + f) != 15) or ((g + h + i) != 15) or ((a + d + g) != 15) or ((b + e + h) != 15) or (
         (c + f + i) != 15) or ((a + e + i) != 15) or ((g + e + c) != 15)):
-    print("Ma")
+    print("Match draw")
+print("1. continue next game   2.exit")
+q=input("Enter choice")
+if q==1:
+    exit()
